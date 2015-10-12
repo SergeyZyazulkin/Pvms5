@@ -18,6 +18,7 @@ static int active;
 static int delay;
 
 static void create_timer(void);
+static void print_hello_world(unsigned long data);
 
 static ssize_t write_count_show(struct kobject *kobj, struct kobj_attribute *attr, char *buf)
 {
